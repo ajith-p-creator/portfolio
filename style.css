@@ -1,0 +1,265 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+   
+}
+
+.logo {
+    width: 140px;
+    height: 100px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-left: 10px;
+    background: #fff;
+}
+
+ul {
+    justify-content: center;
+    display: inline-flex;
+
+}
+
+.list-item{
+   display: inline;
+   margin: 0px 20px;
+    
+
+}
+.links{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+.home-content{
+    margin: 13% 0% 0% 8%;
+}
+#uname{
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: "Playwrite AR", cursive;
+}
+#lnam{
+    font-size: 50px;
+    font-family: "Playwrite AR", cursive;
+    color: red;
+}
+#user-details{
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+.downlod{
+   text-decoration: none;
+   background-color: black;
+   color: white;
+   padding: 10px;
+   /* display: inline-block; */
+   border-radius: 10px;
+}
+.links:hover{
+    color: crimson;
+    text-decoration: underline;
+    
+
+}
+.home-imeges{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0px;
+   right: 30px;
+}.group1{
+    height: 100%;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+}
+.home-imeges:hover #shape{
+    bottom: 40px;
+}
+.home-imeges:hover #boy{
+    left: 45%;
+}
+#about{
+    margin: 15% 8% 0% 8%;
+    
+}
+
+.selection-head{
+    text-align: center;
+}
+.main-head{
+    font-size: 2em;
+    font-family: "Playwrite AR", cursive;
+}
+.sub-head{
+    font-size: 2em;
+    font-family: "Playwrite AR", cursive;
+    color: crimson;
+}
+.about-body{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+#about-image>img{
+    width: 500px;
+}
+#about-content{
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    line-height: 1.5;
+}
+.information{
+    margin-top: 40px;
+
+}
+.info-box{
+    display: flex;
+    align-items:center;
+}
+.info-box>span{
+    margin-left:20px;
+
+
+}
+#skills{
+   margin-left:8% 8% 8%;
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 2rem;
+    margin-top: 20px;
+    align-items: center;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0px;
+    position: relative;
+}
+.bar-head, .bar-precent{
+    font-size: 1. 1rem;
+    font-weight: 500;
+}
+.base-bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    width: 93%;
+    background-color: red;
+}
+.html-j{
+    width: 0%;
+    background-color: red;
+}
+.html-angular{
+    width: 10%;
+    background-color: red;
+}
+.html-ccs{
+    width: 10%;
+    background-color: red;
+}
+.icon-collection{
+   
+ 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  margin-top: 40px;
+}
+.icon{
+    border: 2px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    margin: 0px 10px;
+   
+}
+ .icon:hover{
+    background-image: linear-gradient(to bottom right, white yellow,orange,red,blue,);
+    animation: rotates 2s;
+}
+@keyframes rotates{
+    0%{
+        transform: rotate(30deg);
+        
+    }
+    20%{
+        transform: rotate(-30deg);
+        
+    }
+    40%{
+        transform: rotate(30deg);
+        
+    }
+    60%{
+        transform: rotate(-30deg);
+        
+    }
+    80%{
+        transform: rotate(30deg);
+        
+    }
+    100%{
+        transform: rotate(-30deg);
+        
+    }
+ 
+}
+#copyright{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.up-arrow{
+    float: right;
+    margin: -40px 30px 30px 0;
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
